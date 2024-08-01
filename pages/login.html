@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Grulla</title>
+</head>
+<body>
+
+    <header>
+        <h1>Grulla Design</h1>
+        <img src="../img/logo grulla1.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="../pages/cursos.html">Cursos</a></li>
+                <li><a href="../pages/login.html">Log in</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <form action="login.php" method="POST">
+                <h2>Iniciar Sesión</h2>
+                <div class="input-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+
+            <p>¿No estas registrado? <a href="login.html">Crear Cuenta</a></p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Gracias por visitarnos!</h3>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div class=""social-icons">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/instagram.png" alt="Instagram">
+                </a>
+                
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/facebook.png" alt="Facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

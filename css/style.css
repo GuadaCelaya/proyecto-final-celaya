@@ -1,0 +1,356 @@
+
+/*!-- FONTS --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/*! ---- Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(161, 90, 55);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img{
+    width: 110px;
+    height: 120px;
+}
+
+header h1{
+    color:antiquewhite;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+
+header nav ul li{
+    margin: 10px; 
+}
+header nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+header nav h1 {
+    color: rgb(217, 221, 220);
+
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+
+}
+header nav img{
+    width: 400px;
+    height: 200px;
+}
+
+main section h2 {
+    color: rgb(45, 80, 68);
+    font-size: 30px;
+
+}
+
+main section iframe {
+    border-radius: 20px;
+}
+.boton{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(42, 62, 56);
+    color:antiquewhite;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+.boton:hover{
+    background-color: rgb(204, 123, 77);
+}
+
+section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    color:rgb(240, 233, 224);
+    text-align: center;
+    background-image: url(../img/productos22.png);
+    position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero h2{
+    font-size: 65px;
+    border: 2px solid antiquewhite;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero p {
+    color: rgb(30, 54, 46);
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.hero a{
+    background-color: rgb(131, 231, 197);
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 10px;
+}
+
+.destacados div img{
+    width: 100%;
+    height: 70%;
+}
+
+.destacados {
+    width: 100%;
+    height: 60%;
+}
+
+
+.destacadoscontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid grey;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(130, 156, 148);
+    flex-direction: row;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.productoetiqueta {
+    width: 19%;
+    height: 320px;
+    padding: 5px;
+    
+
+}
+.destacados div h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.destacados h2{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.destacados div a{
+    background-color: rgb(46, 77, 66);
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 10px;
+}
+.boton{
+    background-color: rgb(34, 121, 94);
+    color: whitesmoke;
+    margin: auto;
+    display: inline-block;
+}
+.catalogo {
+    display: flex;
+}
+
+.fixed {
+
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+
+}
+
+.fixed img{
+    width: 60px;
+}
+
+
+section div img{
+    width: 350px;
+    height: 330px;
+}
+header{
+    background-color: rgb(97, 134, 122);
+}
+
+header h1{
+    color: wheat;
+    font-size: 60px;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(54, 124, 100);
+    padding: 1%;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.footer-content h3 {
+    color:rgb(240, 233, 224);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    color:antiquewhite;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+footer div img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.historia h3 { 
+    font-size: 80px;
+    color: rgb(15, 78, 56);
+    text-align: center;
+}
+
+.historia p {
+    text-align: center;
+    text-decoration-style: light;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: antiquewhite
+}
+.maps {
+    display: flex;
+}
+
+.maps {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.clases-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.clases-text {
+    padding: 20px;
+}
+.clases-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.clases-text p {
+    font-size: 50px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.clase-image {
+    text-align: center;
+}
+
+.clases-image img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.login-container {
+    background-color: rgb(83, 106, 99);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(15, 78, 56);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2{
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(211, 235, 227);
+}
+
+.input-group input {
+    width: calc(100% - 12px);
+    
+}
