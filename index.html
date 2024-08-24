@@ -1,95 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Grulla</title>
 </head>
+
 <body>
 
-    <header>
-        <h1>Grulla Design</h1>
-        <img src="./img/logo grulla1.png" alt="logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./pages/cursos.html">Cursos</a></li>
-                <li><a href="./pages/login.html">Log in</a></li>
-            </ul>
-            
+    <header class="bg-light p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Grulla Design</h1>
+            <img src="./img/logo grulla1.png" alt="logo" class="logo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/cursos.html">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/login.html">Log in</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h2>Amamos lo que hacemos</h2>
-            <p>Bienvenido a nuestra página dedicada a la cerámica artesanal, donde la creatividad y la tradición se unen para ofrecerte piezas únicas y exclusivas. Descubre nuestra amplia colección de vajillas, decoraciones y objetos de arte hechos a mano por talentosos artesanos. Cada pieza refleja el cuidado y la pasión por el trabajo manual, asegurando calidad y belleza en cada detalle. Explora nuestra tienda online y encuentra la pieza perfecta para complementar tu hogar con autenticidad y estilo. <p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8lf9f4IBnRc?si=rn0bUNys_oiu6R-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
+        <section class="hero text-center py-5">
+            <div class="container">
+                <h2>Amamos lo que hacemos</h2>
+                <p class="lead">Bienvenido a nuestra página dedicada a la cerámica artesanal, vas a poder encontrar a la venta las piezas únicas que se realizan en el taller así como también muchos cursos para diferentes edades y niveles.</p>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/8lf9f4IBnRc?si=rn0bUNys_oiu6R-v" title="YouTube video player"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
 
-        <section class="destacados">
-            <h2>Productos Destacados</h2>
-            <div class="catalogo">
-            <button class="boton">Accedé al catálogo</button>
+        <section class="destacados py-5">
+            <div class="container">
+                <h2 class="text-center">Productos Destacados</h2>
+                <div class="catalogo text-center my-4">
+                    <button class="btn btn-primary">Accedé al catálogo</button>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/productos19.jpg" class="card-img-top" alt="Objeto">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Conjunto cuencos</h4>
+                                <a href="" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/productos1.jpg" class="card-img-top" alt="Objeto">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Cuenco rústico</h4>
+                                <a href="" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/productos2.jpg" class="card-img-top" alt="Objeto">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Plato blanco</h4>
+                                <a href="" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/productos15.jpg" class="card-img-top" alt="Objeto">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Taza mediana</h4>
+                                <a href="" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/productos4.jpg" class="card-img-top" alt="Objeto">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Florero rostro</h4>
+                                <a href="" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="destacadoscontenedor">
-                <div class="productoetiqueta">
-                    <img src="./img/productos19.jpg" alt=Objeto">
-                    <h4>Conjunto cuencos</h4>
-                    <a href="" class="boton">Comprar</a>
-                </div>
-                <div class="productoetiqueta">
-                    <img src="./img/productos1.jpg" alt=Objeto">
-                    <h4>Cuenco rústico</h4>
-                    <a href="" class="boton">Comprar</a>
-                </div>
-                <div class="productoetiqueta">
-                    <img src="./img/productos2.jpg" alt=Objeto">
-                    <h4>Plato blanco</h4>
-                    <a href="" class="boton">Comprar</a>
-                </div>
-
-                <div class="productoetiqueta">
-                    <img src="./img/productos15.jpg" alt=Objeto">
-                    <h4>Taza mediana</h4>
-                    <a href="" class="boton">Comprar</a>
-                </div>
-                <div class="productoetiqueta">
-                    <img src="./img/productos4.jpg" alt=Objeto">
-                    <h4>Florero rostro</h4>
-                    <a href="" class="boton">Comprar</a>
-                </div>
-
-
-            </div>
-
-
         </section>
 
-            <div class="fixed">
-            <img src="./img/whatsapp logo.png" alt="">  
-            </div>
-
+        <div class="fixed-bottom p-3 text-end">
+            <img src="./img/whatsapp logo.png" alt="WhatsApp Logo">
+        </div>
     </main>
-    <footer>
-        <div class="footer-content">
+
+    <footer class="bg-light py-4">
+        <div class="container text-center">
             <h3>Gracias por visitarnos!</h3>
             <p>Síguenos en nuestras redes sociales:</p>
-            <div class=""social-icons">
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="./img/instagram.png" alt="Instagram">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.instagram.com" target="_blank" class="mx-3">
+                    <img src="./img/instagram.png" alt="Instagram" width="30">
                 </a>
-                
-                <a href="https://www.facebook.com" target="_blank">
-                    <img src="./img/facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com" target="_blank" class="mx-3">
+                    <img src="./img/facebook.png" alt="Facebook" width="30">
                 </a>
             </div>
         </div>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

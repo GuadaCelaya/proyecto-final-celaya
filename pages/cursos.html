@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Grulla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Grulla - Cursos</title>
 </head>
+
 <body>
 
-    <header>
-        <h1>Grulla Design</h1>
-        <img src="../img/logo grulla1.png" alt="logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="../pages/cursos.html">Cursos</a></li>
-                <li><a href="../pages/login.html">Log in</a></li>
-            </ul>
-            
+    <header class="bg-light p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Grulla Design</h1>
+            <img src="../img/logo grulla1.png" alt="logo" class="logo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/cursos.html">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/login.html">Log in</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="py-5">
+        <div class="container">
+            <section class="hero text-center mb-5">
+                <h2>Cursos de Cerámica</h2>
+                <p class="lead">Aprende con nosotros diferentes formas y técnicas de cerámica.</p>
+            </section>
 
-        <section class="clases-section">
-
-            <div class="clases-texto">
-                <h1>Aprendé cerámica con nosotros</h1>
-                <p>Elegi nuestras talleres y vení a crear con tus manos esas piezas que te imaginas desarrollando tu propio estilo.</p>
+            <section class="cursos">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/trabajo.jpg" class="card-img-top" alt="Curso 1">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Curso de Alfarería</h4>
+                                <a href="" class="btn btn-primary">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/clases3.jpg" class="card-img-top" alt="Curso 2">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Curso de modelado</h4>
+                                <a href="" class="btn btn-primary">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/productos9.jpg" class="card-img-top" alt="Curso 3">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Curso de esmaltado</h4>
+                                <a href="" class="btn btn-primary">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-            <div class="clases-image">
-                <img src="../img/clases2.jpg" alt="Clases de Cerámica 1">
-            </div>
-
-            <div class="clases-texto">
-                <p>Nos especializamos en la enseñanza de alfarería y construcción manual, pero también vas a encontrar seminarios sobre esmaltado, creación de engobes, esmaltes y proceso de quema Raku.</p>
-            </div>
-
-            <div class="clases-image">
-                <img src="../img/clases3.jpg" alt="Clases de Cerámica 1">
-            </div>
-
-            <div class="clases-texto">
-                <p>Nuestros cursos se brindan de lunes a sábados, tanto por la mañana como la tarde y cada encuentro dura 2 horas 30 minutos. Escribinos por Whatsapp para recibir la grilla con los horarios!
-                </p>
-            </div>
-
-            <div class="clases-image">
-                <img src="../img/clases4.jpg" alt="Clases de Cerámica 1">
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <div class="footer-content">
+    <footer class="bg-light py-4">
+        <div class="container text-center">
             <h3>Gracias por visitarnos!</h3>
             <p>Síguenos en nuestras redes sociales:</p>
-            <div class=""social-icons">
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="../img/instagram.png" alt="Instagram">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.instagram.com" target="_blank" class="mx-3">
+                    <img src="../img/instagram.png" alt="Instagram" width="30">
                 </a>
-                
-                <a href="https://www.facebook.com" target="_blank">
-                    <img src="../img/facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com" target="_blank" class="mx-3">
+                    <img src="../img/facebook.png" alt="Facebook" width="30">
                 </a>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
